@@ -1,0 +1,120 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F7F7F7;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(to right, #FFC1CC, #FFD700);
+    color: #FFC1CC;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 5px solid #FFD700;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #FFC1CC;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 1.5rem;
+    color: #fff;
+}
+
+section p {
+    color: #333; 
+}
+
+header nav a {
+    color: #fff;
+    background: #FFD700;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #FFD700;
+    border-radius: 20px;
+}
+
+header nav a:hover {
+    background: #FFD700;
+    color: #333;
+}
+
+/* Section Styling */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    color: #FFC1CC;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Skills List */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+ul li {
+    background: #FFC1CC;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    background: #FFC1CC;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    border-top: 5px solid #FFD700;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
