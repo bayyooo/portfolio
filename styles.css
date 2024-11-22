@@ -111,10 +111,65 @@ footer p {
 }
 
 footer a {
-    color: #FFD700;
+    color: #ffffff;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header nav a {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    background: #FFC1CC;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project h3 {
+    margin-bottom: 0.5rem;
+}
+
+.project a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
